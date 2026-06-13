@@ -1,0 +1,65 @@
+# InstaClone 📸
+
+A social media app inspired by Instagram, where users can share photos, like and comment on posts, and follow other users.
+
+## 🚀 Features
+- Create and share photo posts with captions
+- Like and comment on posts
+- User profiles with follow/unfollow
+- User authentication
+- Responsive feed UI
+
+## 🛠️ Tech Stack
+React, Node.js, Express, MongoDB, JWT
+
+## 📸 Screenshots
+
+<table>
+<tr>
+<td align="center"><b>Feed</b></td>
+<td align="center"><b>Post View</b></td>
+</tr>
+<tr>
+<td><img src="./screenshots/feed.png" width="400"/></td>
+<td><img src="./screenshots/post.png" width="400"/></td>
+</tr>
+<tr>
+<td align="center"><b>Profile Page</b></td>
+<td align="center"><b>Comments</b></td>
+</tr>
+<tr>
+<td><img src="./screenshots/profile.png" width="400"/></td>
+<td><img src="./screenshots/comments.png" width="400"/></td>
+</tr>
+</table>
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+```bash
+git clone <your-repo-link>
+cd instaclone
+```
+
+2. Install dependencies (frontend & backend)
+```bash
+cd client && npm install
+cd ../server && npm install
+```
+
+3. Run the app
+```bash
+# Backend
+npm run dev
+
+# Frontend (new terminal)
+cd client && npm run dev
+```
+
+4. Open `http://localhost:5173` in your browser
+
+## 🌐 Live Demo
+[View Live Demo](#)
+
+## 👤 Author
+Anushri — [Anushri2717](#) 
